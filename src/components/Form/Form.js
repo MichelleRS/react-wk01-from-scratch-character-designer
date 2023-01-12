@@ -19,7 +19,12 @@ export default function Form({ head, shirt, pants, input, handleChange }) {
         onChange={(e) => handleChange('shirt', e.target.value)}
       />
       {/* pants select dropdown */}
-      <Select label="pants" value={pants} options={['gray', 'black', 'patch']} />
+      <Select
+        label="pants"
+        value={pants}
+        options={['gray', 'black', 'patch']}
+        onChange={(e) => handleChange('pants', e.target.value)}
+      />
       <div className="form-control">
         {/* catchphrase */}
         <label>Add a catphrase</label>

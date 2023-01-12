@@ -1,5 +1,6 @@
 .head-image,
-.shirt-image {
+.shirt-image,
+.pants-image {
   background-repeat: no-repeat;
 }
 
@@ -10,5 +11,10 @@
 
 .shirt-image {
   background-size: 200px;
-  height: 250px;
+  height: 225px;
+}
+
+.pants-image {
+  background-size: 200px;
+  height: 450px;
 }

@@ -12,6 +12,7 @@ function App() {
   // shirt
   const [shirt, setShirt] = useState('pink');
   // pants
+  const [pants, setPants] = useState('gray');
 
   const handleChange = (type, value) => {
     // head
@@ -23,6 +24,10 @@ function App() {
     if (type === 'shirt') {
       setShirt(value);
     }
+    // pants
+    if (type === 'pants') {
+      setPants(value);
+    }
   };
 
   return (
@@ -30,11 +35,11 @@ function App() {
       <h1>Character Designer</h1>
       <section className="container">
         <div className="left">
-          <Form {...{ head, shirt, handleChange }} />
+          <Form {...{ head, shirt, pants, handleChange }} />
           {/* <Stats /> */}
         </div>
         <div className="right">
-          <Character {...{ head, shirt }} />
+          <Character {...{ head, shirt, pants }} />
         </div>
       </section>
     </main>
