@@ -12,7 +12,12 @@ export default function Form({ head, shirt, pants, input, handleChange }) {
         onChange={(e) => handleChange('head', e.target.value)}
       />
       {/* shirt select dropdown */}
-      <Select label="shirt" value={shirt} options={['pink', 'orange', 'blue']} />
+      <Select
+        label="shirt"
+        value={shirt}
+        options={['pink', 'orange', 'blue']}
+        onChange={(e) => handleChange('shirt', e.target.value)}
+      />
       {/* pants select dropdown */}
       <Select label="pants" value={pants} options={['gray', 'black', 'patch']} />
       <div className="form-control">

@@ -7,9 +7,10 @@ import Character from './components/Character/Character.js';
 
 function App() {
   // head
-  const [head, setHead] = useState('');
+  const [head, setHead] = useState('sphinx');
   // const [headCount, setHeadCount] = useState(0);
   // shirt
+  const [shirt, setShirt] = useState('pink');
   // pants
 
   const handleChange = (type, value) => {
@@ -18,6 +19,10 @@ function App() {
       setHead(value);
       // setHeadCount(headCount + 1);
     }
+    // shirt
+    if (type === 'shirt') {
+      setShirt(value);
+    }
   };
 
   return (
@@ -25,11 +30,11 @@ function App() {
       <h1>Character Designer</h1>
       <section className="container">
         <div className="left">
-          <Form {...{ head, handleChange }} />
+          <Form {...{ head, shirt, handleChange }} />
           {/* <Stats /> */}
         </div>
         <div className="right">
-          <Character {...{ head }} />
+          <Character {...{ head, shirt }} />
         </div>
       </section>
     </main>
