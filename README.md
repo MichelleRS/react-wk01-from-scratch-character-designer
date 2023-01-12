@@ -14,11 +14,11 @@
 
 ### Components Description
 
-- App.js contains the entire app
+- App.js contains entire app with Form, Stats, and Character
 - Form.js form
 - Select.js options in select dropdowns
-- Stats.js displays form input as text
-- Character.js displays form input as images.
+- Stats.js displays form input as text (get props from form)
+- Character.js displays form input as images (get props from form)
 
 ## Rubric
 
