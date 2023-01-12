@@ -1,5 +1,14 @@
 .head-image,
 .shirt-image {
   background-repeat: no-repeat;
-  height: 200px;
+}
+
+.head-image {
+  background-size: 200px;
+  height: 175px;
+}
+
+.shirt-image {
+  background-size: 200px;
+  height: 250px;
 }
