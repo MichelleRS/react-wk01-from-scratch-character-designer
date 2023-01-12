@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 
-import Form from './components/Form';
+import Form from './components/Form/Form.js';
 // import Stats from './components/Stats';
 // import Character from './components/Character';
 
