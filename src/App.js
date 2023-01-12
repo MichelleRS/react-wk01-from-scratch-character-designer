@@ -2,8 +2,8 @@ import './App.css';
 import React from 'react';
 
 import Form from './components/Form';
-import Stats from './components/Stats';
-import Character from './components/Character';
+// import Stats from './components/Stats';
+// import Character from './components/Character';
 
 function App() {
   return (
@@ -12,11 +12,9 @@ function App() {
       <section className="container">
         <div className="left">
           <Form />
-          <Stats />
+          {/* <Stats /> */}
         </div>
-        <div className="right">
-          <Character />
-        </div>
+        <div className="right">{/* <Character /> */}</div>
       </section>
     </main>
   );
