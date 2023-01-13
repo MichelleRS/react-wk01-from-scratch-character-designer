@@ -1,4 +1,5 @@
 import React from 'react';
+import './Form.css';
 import Select from './Select.js';
 
 export default function Form({ head, shirt, pants, input, setInput, handleChange, handleClick }) {
