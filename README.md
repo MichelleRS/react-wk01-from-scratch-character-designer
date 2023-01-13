@@ -14,11 +14,11 @@
 
 ### Components Description
 
-- App.js contains entire app with Form, Stats, and Character
-- Form.js form
-- Select.js options in select dropdowns
-- Stats.js displays form input as text (get props from form)
-- Character.js displays form input as images (get props from form)
+- App.js: contains entire app with Form, Stats, and Character
+- Form.js: form
+- Select.js: options in select dropdowns
+- Stats.js: displays form input as text (get props from form)
+- Character.js: displays form input as images (get props from form)
 
 ## Rubric
 
@@ -31,7 +31,7 @@
 - [x] State showing the number of times each attribute was changed 2
 - [x] Adding a catchphrase properly modifies a state array 2
 - [x] Catchphrases are displayed on the page 2
-- [] Each component is styled using CSS imports 2
+- [x] Each component is styled using CSS imports 2
 
 ## Acknowledgments
 
