@@ -1,0 +1,20 @@
+.head-image,
+.shirt-image,
+.pants-image {
+  background-repeat: no-repeat;
+}
+
+.head-image {
+  background-size: 200px;
+  height: 175px;
+}
+
+.shirt-image {
+  background-size: 200px;
+  height: 225px;
+}
+
+.pants-image {
+  background-size: 200px;
+  height: 450px;
+}
